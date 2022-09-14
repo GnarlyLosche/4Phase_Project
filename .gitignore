@@ -1,0 +1,14 @@
+# Ignore IMDB
+.zip
+
+# Ignore Mac system files
+.DS_store
+
+# Ignore csv
+.csv
+
+# Ignore tsv
+.tsv
+
+# Ignore db
+.db
