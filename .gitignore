@@ -1,4 +1,4 @@
-# Ignore IMDB
+# Ignore zip
 .zip
 
 # Ignore Mac system files
@@ -12,3 +12,7 @@
 
 # Ignore db
 .db
+
+# Ignore Image files
+CellData
+
