@@ -6,6 +6,13 @@ For the fourth phase, I put everything I've learned together to build a deep neu
 
 The images are split into a training set and a testing set of independent patients. Images are labeled as (disease)-(randomized patient ID)-(image number by this patient)
 
+# Steps to utilize data
+
+In order to get the data into the model for this repository, create a folder called Data in the main directorty and download/extract the images from this link: [link](https://data.mendeley.com/datasets/rscbjbr9sj/3)
+
+Once the data is downloaded and extracted and the internal folders are in your creadet 'Data' folder, create an additional validation forlder that has two sub folders for NORMAL and PNEUMONIA images, matching the file structure in the train and test folders. Frome there, move the bottom 25% of images in the train folder for both NORMAL and PNEUMONIA into their respective folders in the validation folder. With this file structure you can run the model.
+
+
 # Key facts
 
 - Pneumonia accounts for 14% of all deaths of children under 5 years old, killing 740 180 children in 2019
