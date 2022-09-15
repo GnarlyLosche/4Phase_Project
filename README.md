@@ -52,6 +52,11 @@ In order to solve this issue, the Gates foundation executive director called on 
 - I used matplot and seaborn to visualize the loss and accuracy of the model as I iterated in order to effectively tune the model
 
 # Modeling:
+![initial model](https://github.com/GnarlyLosche/4Phase_Project/blob/main/Initial_Model.png)
+![Epoch and batch](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_after_epoch_and_batch.png)
+![learning Rate](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_post_learning_rate.png)
+![Regularization](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_regularization.png)
+
 - My neural net used 3 layers of convolutional neural networks
 - The model was built using adam as the optimizer rather than SGD. I don't have a massive data set, and the loss/accuracy was better with the adam optimizer so I stayed with it for the final model
 - I used an L2 regularizer since the model had overfitting issues I wanted to address overfitting
