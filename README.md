@@ -26,6 +26,8 @@ Once the data is downloaded and extracted and the internal folders are in your c
 
 Pneumonia killed 740 180 children under the age of 5 in 2019, accounting for 14% of all deaths of children under five years old but 22% of all deaths in children aged 1 to 5. Pneumonia affects children and families everywhere, but deaths are highest in South Asia and sub-Saharan Africa. Children can be protected from pneumonia, it can be prevented with simple interventions, and treated with low-cost, low-tech medication and care.
 
+![Example X Rays of a Normal Patient](https://github.com/GnarlyLosche/4Phase_Project/blob/main/chest%20Xrays.png)
+
 # Business Area
 
 Rural Hospitals and population-dense hospitals in Sri Lankajust recieved a large grant from the Bill and Melinda Gates foundation to purchase X Ray Machines for their practices. One of the largest problems present in these areas is the prevalence of pneumonia in their pediatric population, and the level of lethality it has for those children
