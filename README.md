@@ -6,6 +6,13 @@ For the fourth phase, I put everything I've learned together to build a deep neu
 
 The images are split into a training set and a testing set of independent patients. Images are labeled as (disease)-(randomized patient ID)-(image number by this patient)
 
+# Steps to utilize data
+
+In order to get the data into the model for this repository, create a folder called Data in the main directorty and download/extract the images from this link: [link](https://data.mendeley.com/datasets/rscbjbr9sj/3)
+
+Once the data is downloaded and extracted and the internal folders are in your creadet 'Data' folder, create an additional validation forlder that has two sub folders for NORMAL and PNEUMONIA images, matching the file structure in the train and test folders. Frome there, move the bottom 25% of images in the train folder for both NORMAL and PNEUMONIA into their respective folders in the validation folder. With this file structure you can run the model.
+
+
 # Key facts
 
 - Pneumonia accounts for 14% of all deaths of children under 5 years old, killing 740 180 children in 2019
@@ -18,6 +25,8 @@ The images are split into a training set and a testing set of independent patien
 **Pneumonia is the single largest infectious cause of death in children worldwide.**
 
 Pneumonia killed 740 180 children under the age of 5 in 2019, accounting for 14% of all deaths of children under five years old but 22% of all deaths in children aged 1 to 5. Pneumonia affects children and families everywhere, but deaths are highest in South Asia and sub-Saharan Africa. Children can be protected from pneumonia, it can be prevented with simple interventions, and treated with low-cost, low-tech medication and care.
+
+![Example X Rays of a Normal Patient](https://github.com/GnarlyLosche/4Phase_Project/blob/main/chest%20Xrays.png)
 
 # Business Area
 
@@ -45,6 +54,11 @@ In order to solve this issue, the Gates foundation executive director called on 
 - I used matplot and seaborn to visualize the loss and accuracy of the model as I iterated in order to effectively tune the model
 
 # Modeling:
+![initial model](https://github.com/GnarlyLosche/4Phase_Project/blob/main/Initial_Model.png)
+![Epoch and batch](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_after_epoch_and_batch.png)
+![learning Rate](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_post_learning_rate.png)
+![Regularization](https://github.com/GnarlyLosche/4Phase_Project/blob/main/model_regularization.png)
+
 - My neural net used 3 layers of convolutional neural networks
 - The model was built using adam as the optimizer rather than SGD. I don't have a massive data set, and the loss/accuracy was better with the adam optimizer so I stayed with it for the final model
 - I used an L2 regularizer since the model had overfitting issues I wanted to address overfitting
